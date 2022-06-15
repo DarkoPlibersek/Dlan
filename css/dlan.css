@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+.navigacija li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigacija li a {
+    transition: all 0.5s ease 0s;
+}
+
+.navigacija li a:hover {
+    color: rgb(115, 199, 255);
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    height: 84px;
+}
+
+.login {
+    height: 80px;
+}
+
+.logo {
+    max-block-size: 70px;
+}
+
+.naslovna {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+footer {
+    text-align: center;
+}
+
+.naslov {
+    position: absolute;
+    top: 50%;
+    widows: 100%;
+    margin-left: 500px;
+    font-size: 150px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
