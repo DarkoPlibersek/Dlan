@@ -61,7 +61,7 @@
         do {
             $row = mysqli_fetch_assoc($result);
             echo "<tr>";
-            echo "<td>" . $row["ID_dela"] . ")</td>";
+            echo "<td>" . $x . ")</td>";
             echo "<td>" . $row["vrsta_dela"] . "</td><br>";
             echo "</tr>";
             $x++;

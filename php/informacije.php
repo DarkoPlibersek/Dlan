@@ -37,7 +37,7 @@
                 <li><a href="./kontakt.php">Kontakt</a></li>
             </ul>
         </nav>
-        <a href="./backEnd/login.html"><img class="login" src="../images/slike/login.jpg" alt="login"></a>   f
+        <a href="./backEnd/login.html"><img class="login" src="../images/slike/login.jpg" alt="login"></a>
     </header>
     <div class="flex">
         <?php
